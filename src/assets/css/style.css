@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Chomsky";
+  src: url(../fonts/Chomsky.otf);
+}
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+header .headline {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+header .headline article:nth-child(1) {
+  border: 1px solid black;
+  width: 150px;
+  margin-bottom: 10px;
+}
+header .headline article:nth-child(1) p:nth-child(1) {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+header .headline h1 {
+  font-family: "Chomsky";
+  font-size: 5rem;
+}
+header .headline h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid black;
+}
+header nav label {
+  font-size: 0.8rem;
+  margin: 0 3px;
+}
+header nav input {
+  width: 100px;
+}
+header nav select::placeholder {
+  font-size: 0.8rem;
+}
+header nav p {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+header nav button {
+  padding: 2px 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+#article-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+#article-container .news-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 31vw;
+  padding-left: 15px;
+  border-left: 0.5px solid black;
+  padding-right: 15px;
+  border-right: 0.5px solid black;
+}
+#article-container .news-card h2 {
+  text-align: center;
+  padding: 5px;
+}
+#article-container .news-card img {
+  object-fit: contain;
+  max-width: 90%;
+  filter: grayscale(100%);
+}
+#article-container .news-card p {
+  margin: 10px 0;
+}
+#article-container .news-card button {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: ivory;
+  font-family: "Georgia";
+  font-size: 1.1rem;
+}
+html footer {
+  background-color: rgb(217, 217, 202);
+}
+html footer p {
+  padding: 13px;
+}
+
+/*# sourceMappingURL=style.css.map */

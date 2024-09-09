@@ -1,0 +1,21 @@
+@use "./Modules/header.scss";
+@use "./Modules/article.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: ivory;
+  font-family: "Georgia";
+  font-size: 1.1rem;
+
+  footer {
+    background-color: rgb(217, 217, 202);
+    p {
+      padding: 13px;
+    }
+  }
+}

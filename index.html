@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/src/main.ts" defer></script>
+    <link rel="stylesheet" href="./src/assets/css/style.css" />
+    <title>The Nana Global Times</title>
+  </head>
+  <body>
+    <header>
+      <section class="headline">
+        <article>
+          <p>"All the News That's Fit to Display"</p>
+        </article>
+        <h1>The Nana Global Times</h1>
+        <article>
+          <h3>THE WEATHER</h3>
+          <p class="weather"></p>
+        </article>
+      </section>
+      <nav>
+        <div class="search">
+          <label for="search">Search term</label>
+          <input type="text" name="search" id="search" />
+        </div>
+        <div class="language">
+          <label for="language">Language</label>
+          <select name="language" id="language">
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="es">Espagnol</option>
+            <option value="fr">Français</option>
+          </select>
+        </div>
+        <p class="date-p"></p>
+        <div class="sort">
+          <label for="sort">Sort</label>
+          <select name="sort" id="sort">
+            <option value="relevancy">Relevancy</option>
+            <option value="popularity">Popularity</option>
+            <option value="publishedAt">Newest first</option>
+          </select>
+          <button type="submit" id="send">Send</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="article-container"></div>
+    </main>
+    <footer>
+      <p>Coded by Nana Leven - 2024</p>
+    </footer>
+  </body>
+</html>
