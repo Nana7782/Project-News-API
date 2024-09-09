@@ -25,6 +25,7 @@ I imitated the look of the most popular Newspapers of all times - The New York T
 ### Future Plans for this project:
 
 - adding media queries for different disply sizes
+- checking why the Chomsky font doen't display "s" propperly
 - making the date functional, so it can be also used to serch for a specific date
 - adding a weather API that shows the weather current weather of your location and/or of the date and location selected
 
