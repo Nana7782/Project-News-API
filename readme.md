@@ -31,4 +31,7 @@ I imitated the look of the most popular Newspapers of all times - The New York T
 
 ---
 
-Deployed:
+Deployement:
+
+Unfortunately, the NEWS API won't let me publish the page.
+If you want to see how everything works, it's best to clone the repo.
