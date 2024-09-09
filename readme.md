@@ -1,4 +1,4 @@
-# The Nana Global News
+# The Nana Global Times
 
 coded using https://newsapi.org/
 
